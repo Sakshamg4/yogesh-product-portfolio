@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import { siteConfig } from "@/lib/data";
-import { Mail, Phone, Linkedin, MoveUpRight, ArrowRight } from "lucide-react";
+import { Mail, Phone, Linkedin, MoveUpRight } from "lucide-react";
 import { ScrollReveal } from "./ScrollReveal";
 
 const contacts = [
