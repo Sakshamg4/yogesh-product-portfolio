@@ -23,7 +23,11 @@ const geistMono = localFont({
 export const metadata: Metadata = {
   title: `${siteConfig.name} | ${siteConfig.role}`,
   description: "Product Owner with 7+ years delivering scalable banking and regulatory solutions.",
+  icons: {
+    icon: "/icon.png",
+  },
 };
+
 
 export default function RootLayout({
   children,
